@@ -1,0 +1,273 @@
+*{margin: 0;padding: 0;}
+ul,ol,li {list-style: none;}
+a, a:hover {text-decoration: none}
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+body{
+    background: #0F0F0F;
+}
+#header {
+    background: #0F0F0F;
+    height: 80px;
+}
+
+.menu {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu__link {
+    display: flex;
+}
+
+.links {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #969696;
+    margin: 0 20px;
+}
+
+/*-----------------------------------*/
+
+#hero {
+    background: url("./img/Rectangle 3.png") no-repeat center/cover;
+    height: 100vh;
+}
+
+.hero__items {
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 100px;
+    padding-top: 100px;
+    text-align: center;
+    border: 4px solid #FFFFFF;
+    width: 320px;
+    height: 220px;
+}
+
+.items__title {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.items__img {
+    width: 185px;
+    height: 86px;
+    border-bottom: 2px solid #fff;
+}
+
+.hero__wrap {
+    width: 730px;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-left: 250px;
+    padding-top: 500px;
+}
+.hero2__items2{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.div{
+    background: #191B1C;
+    width: 190px;
+    height: 200px;
+   margin-left: 5px;
+    padding-top: 20px;
+padding-bottom: 5px;
+}
+.clock{
+margin-left: -4px;
+}
+.img1{
+    margin-top: 20px;
+margin-left: 30px;
+}
+.img2{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.season{
+    margin-top: 70px;
+    margin-left: 170px;
+}
+.span{
+    width: 150px;
+    height: 2px;
+    background: #FFFFFF;
+    margin-top: 20px;
+
+    margin-left: 230px;
+}
+.clock{
+    width: 200px;
+    height: 200px;
+}
+.items2__title2{
+    background: url("./img/Rectangle 8.png") no-repeat center/cover;
+    height: 80vh;
+    width: 550px;
+    margin-left: 40px;
+}
+.block{
+    margin-top: 330px;
+    margin-left: 120px;
+}
+.title{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.line{
+    width: 200px;
+    height: 2px;
+    background: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.btn{
+    padding: 17px;
+     border: 1px solid white;
+    background: none;
+    color: white;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.block1{
+    background: url("./img/Rectangle 9.png")no-repeat center/cover;
+    height: 80vh;
+    width: 550px;
+    margin-left: 30px;
+}
+.menu__block{
+    display: flex;
+    flex-wrap: wrap;
+}
+.subtitle{
+    width: 400px;
+    color: white;
+    margin-left: 130px;
+    margin-top: 20px;
+
+}
+.collection{
+    margin-top: 100px;
+    margin-left: 160px;
+}
+.line2{
+    margin-left: 210px;
+}
+.btn2{
+    margin-left: 220px;
+    width: 200px;
+}
+.title1{
+    color: #FFFFFF;
+    font-size: 25px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+.line3{
+    margin-top: 40px;
+    margin-left: 500px;
+}
+.block5{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    margin-left: 190px;
+    margin-top: 50px;
+}
+.hero5{
+     background: rgba(15,20,22,0.72);
+height: 40vh;
+}
+.title2{
+    margin-left:450px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.line4{
+    margin-left: 470px;
+}
+.menu__image{
+    display: flex;
+    flex-wrap: wrap;
+margin-left: 80px;
+}
+#footer{
+    background: url("./img/Rectangle 15.png") no-repeat center/cover;
+    height: 50vh;
+}
+.footer{
+    display: flex;
+}
+.t1{
+    color: white;
+    margin-left: 50px;
+}
+.st1{
+    width: 300px;
+    color: white;
+    margin-top: 20px;
+}
+.footer__title{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.button{
+    padding: 10px;
+    background: #0F0F0F;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.input{
+    width: 200px;
+    padding: 10px;
+    color: white;
+    background: #191B1C;
+    border: #191B1C;
+    margin-top: 30px;
+}
+.btn3{
+    background: #191B1C;
+    color: white;
+    padding: 8px;
+    margin-top: 10px;
+}
+.links{
+    padding: 20px;
+    background: rgba(18,22,19,0.72);
+}
+.links:hover{
+    background: rgba(3,16,22,0.72);
+}
+.input:focus{
+   background: rgba(9,1,22,0.72);
+}
+.div:active{
+    border: 1px solid gainsboro;
+}
+
+
+
